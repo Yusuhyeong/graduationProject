@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity__ocr.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity__rec.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity__song.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_chat.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_chatroom.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_chatroom_backup.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_demo.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_drawer.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_friends.xml" value="0.4534188034188034" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_home.xml" value="0.34375" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_login.xml" value="0.415234375" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_main.xml" value="0.20542046605876393" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_match.xml" value="0.33" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_match_sub.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_signup.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_test.xml" value="0.3546875" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/activity_uinfo.xml" value="0.35208333333333336" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/frame_1p.xml" value="0.3546875" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/layout/song_list_item.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/GP/app/src/main/res/xml/network_config.xml" value="0.184375" />
+        <entry key="..\:/Users/GJ/AndroidStudioProjects/gp/app/src/main/res/layout/activity_main.xml" value="0.35625" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

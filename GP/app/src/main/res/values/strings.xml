@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GP</string>
+    <string name="title_activity_login">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_signup">FullscreenActivity</string>
+    <string name="frame_1">요즘\n어떤 노래를\n들으시나요?</string>
+    <string name="frame_2">좋은 음악을\n추천 해주고</string>
+    <string name="frame_3">자신의 취향을\n쉽게\n추천받으세요!</string>
+    <string name="frame_4">대화를 통해\n넓혀가세요!</string>
+</resources>

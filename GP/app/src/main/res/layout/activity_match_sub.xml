@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Activity_match_sub">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="매칭"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+
+
+            <LinearLayout
+                android:background="@drawable/round_border"
+                android:layout_gravity="center"
+                android:layout_width="390dp"
+                android:layout_height="500dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp">
+
+                            <LinearLayout
+                                android:layout_marginLeft="15dp"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:gravity="center"
+                                    app:srcCompat="@drawable/ic_launcher_foreground" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="50dp"
+                                android:layout_width="200dp"
+                                android:layout_height="100dp"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_marginTop="18dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:text = "닉네임"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp">
+
+                                    </TextView>
+
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:id="@+id/test_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="id">
+                                    </TextView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:text = "age"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp">
+
+                                    </TextView>
+
+                                    <TextView
+                                        android:id="@+id/fage_text"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="id">
+                                    </TextView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="50dp"
+                                        android:layout_height="wrap_content"
+                                        android:text = "장르"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp">
+
+                                    </TextView>
+
+                                    <TextView
+                                        android:layout_marginLeft="15dp"
+                                        android:id="@+id/fgenre_text"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="@color/black"
+                                        android:text="genre">
+                                    </TextView>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@drawable/round_border"
+                    android:layout_width="390dp"
+                    android:layout_height="360dp"
+                    android:layout_gravity="center">
+
+
+                    <ScrollView
+                        android:layout_width="390dp"
+                        android:layout_height="330dp"
+                        android:layout_gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="390dp"
+                            android:layout_height="350dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:gravity="center"
+                                android:layout_width="150dp"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/friend_singer"
+                                android:textColor="@color/black"
+                                android:text="가수"
+                                android:textSize="13sp">
+                            </TextView>
+
+                            <TextView
+                                android:id="@+id/friend_song"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="제목"
+                                android:textColor="@color/black"
+                                android:textSize="13sp"></TextView>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_accept"
+                android:layout_marginLeft="40dp"
+                android:text="수락"
+                android:textStyle="bold"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:layout_width="80dp"
+                android:layout_height="40dp">
+            </Button>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="0dp">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_refuse"
+                android:layout_marginRight="40dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:text="거절"
+                android:textStyle="bold"
+                android:layout_width="80dp"
+                android:layout_height="40dp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

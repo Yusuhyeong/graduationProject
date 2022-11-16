@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.Theme.gp.ActionBar.Fullscreen." parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Widget.Theme.gp.ButtonBar.Fullscreen" parent="">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <string name="textview_message" forematted="false">%1$20s %2$20s</string>
+
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#FFFFFF"
+    android:id="@+id/drawer"
+    android:orientation="vertical"
+    tools:context=".Activity_home">
+
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/backspace"
+        android:textSize="10dp"
+        app:backgroundTint="@color/white"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:text="사람따라 취향따라"
+        android:layout_marginBottom="30dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="100dp">
+
+        <ImageView
+            android:background="@drawable/round_background_border_black"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_part_user"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/test">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "닉네임  "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "나이      "
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "장르      "
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <!--
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름 : 앙버터\n등록 곡수 : 200곡\n프로필 방문 : 1452회">
+        </TextView>
+        -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_menu1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:text="회원 정보 수정"
+            android:textColor="@color/white"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_menu2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#BB86FC"
+            android:gravity="center"
+            android:text="노래 추가"
+            android:textColor="@color/white"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></LinearLayout>
+
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#BB86FC"
+            android:gravity="center"
+            android:text="사용자 테스트 버튼"
+            android:textColor="@color/white"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_menu5"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#BB86FC"
+            android:gravity="center"
+            android:text="친구 목록"
+            android:textColor="@color/white"></Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_menu4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="#BB86FC"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:text="로그아웃"
+            android:textColor="@color/white"></Button>
+
+    </LinearLayout>
+</LinearLayout>
